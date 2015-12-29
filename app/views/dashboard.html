@@ -1,0 +1,53 @@
+<!-- BEGIN MAIN CONTENT -->
+<div ng-controller="DashboardController as dashboard">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-10">
+            <div class="row">
+                <!-- Jobs in Queue -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" ng-repeat="jobGroup in dashboard.jobGroups">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="dashboard-stat black summary-tile" ng-click="dashboard.getTableView(jobGroup.dataViewName)">
+                                <div class="details-block">
+                                    <div class="desc"> {{jobGroup.category}} </div>
+                                    <div class="number"> {{ jobGroup.jobsList.length }} </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="dashboard-stat black details-tile">
+                                <div class="details-block">
+                                    <div class="desc"> {{jobGroup.jobListTitle}} </div>
+                                    <div class="number">
+                                        <div class="data-label" ng-class="{'blue':'blue', 'green':'green','vl':'vl', 'orange':'orange'}[job.code]" ng-repeat="job in jobGroup.jobsList">
+                                            <div class="row">
+                                                <div class="col-xs-3 label-text">{{job.title}}</div>
+                                                <div class="col-xs-3 label-range" >
+                                                    <div ng-style="{ 'width' : job.percentage}" ></div>
+                                                </div>
+                                                <div class="col-xs-2 label-percentage">{{job.percentage}}</div>
+                                                <div class="col-xs-2 label-delete"><i class="fa fa-times-circle-o"></i></div>
+                                                <div class="col-xs-2 label-refresh"><i class="fa fa-repeat"></i></div>
+                                            </div>
+                                        </div>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div ng-repeat="categoryLabel in dashboard.categoryLabels">                
+                <div class="cat-label-container row">
+                    <div class="label-bar col-xs-2" ng-class="{'blue':'blue', 'green':'green','vl':'vl', 'orange':'orange'}[categoryLabel.code]"> <i class="fa fa-stop"></i></div>
+                    <div class="cat-label-title col-xs-8" style="font-size: 14px;">{{categoryLabel.title}} </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END DASHBOARD STATS -->
+    
+</div>

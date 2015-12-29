@@ -1,0 +1,59 @@
+<div class="container">
+	<div class="row">
+		
+			
+			<div class="col-md-2">
+			<div id="ag_filter">
+				+ SCHEDULE
+			</div>
+		</div>
+			
+			<div class="col-md-7">
+			<ul id="ag_filtermenu" >
+				<li>
+					<div>Data Range</div>
+					<div class="ag_fmenu_elem">
+						<select>
+							<option value="">Last 7 days</option>
+							<option value="">Last 7 days</option>
+							<option value="">Last 7 days</option>
+						</select>
+					</div>
+				</li>
+				<li>
+					<div>Partner</div>
+					<div class="ag_fmenu_elem"><select><option value="">Last 7 days</option></select></div>
+				</li>
+				<li>
+					<div>Data Type</div>
+					<div class="ag_fmenu_elem"><select><option value="">Last 7 days</option></select></div>
+				</li>
+				<li>
+					<div>Status</div>
+					<div class="ag_fmenu_elem"><select><option value="">Last 7 days</option></select></div>
+				</li>
+				<li>
+					<div>Job ID</div>
+					<div class="ag_fmenu_elem"><input> </div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="col-md-2">
+			<div id="ag_filter_apply">
+				APPLY
+			</div>
+		</div>
+		
+
+		</div>
+		<div class="row">
+		<div class="col-xs-12">
+			<div id="ag_grids" ng-controller="JobsSuccessController">
+				<div id="pkgrid" class="ag_grid" ui-grid="{ data: myData }"></div>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+<!-- <select><option value="">Last 7 days</option></select> -->
