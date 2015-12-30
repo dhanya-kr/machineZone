@@ -1,0 +1,89 @@
+
+.ag_grid {
+    width: 80% !important;
+    height: 250px;
+}
+
+.ui-grid-header {
+    height: 30px !important;
+}
+
+.ui-grid-header-cell-row{
+    color: #fff;
+    background-color: #484C4E;
+}
+
+.ui-grid-row{
+    
+}
+
+#ag_filter, #ag_filter_apply{
+    display: block;
+    width: 100%;
+    border: 2px solid #4097B1;
+    color: #4097B1;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    padding: 15px;
+    text-align: center;
+}
+
+#ag_filtermenu{
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+    width: 100%;
+}
+
+#ag_filtermenu li {
+    width: 20%;
+    padding: 8px;
+    display: inline-block;
+    border: 2px solid #fff;
+    margin-left: -6px;
+    text-align: center;
+}
+
+#ag_filtermenu li div{
+    color: #fff;
+}
+
+.ag_fmenu_elem{
+    margin: 0px !important;
+    color: #fff;
+    font-weight: bold;
+}
+
+.ag_fmenu_elem input{
+    color: #4097B1;
+    width: 60px;
+    height: 22px;
+    border-radius: 4px;
+}
+
+#ag_filter_apply{
+    color: #358C75;
+    border: 6px solid #358C75;
+    border-radius: 4px;
+    font-size: 22px;    
+    padding: 10px 16px;
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+
+#ag_filtermenu select{
+    background-color: transparent;
+    border: none;
+}
+
+.ui-grid-viewport{
+    overflow-x: auto !important;
+}
+
+.ag_grid{
+    width: 100% !important;
+}

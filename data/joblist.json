@@ -1,0 +1,151 @@
+[
+        {
+            "category" : "Total Jobs in Queue: ",
+            "jobListTitle" : "Queue",
+            "dataViewName" : "jobsInQ",
+            "jobsList" : [
+                {
+                    "id": 1,
+                    "title" : "Job1",
+                    "percentage" : "0%",
+                    "code" : "blue"
+                },
+                {
+                    "id": 2,
+                    "title" : "Job2",
+                    "percentage" : "0%",
+                    "code" : "vl"
+                },
+                {
+                    "id": 3,
+                    "title" : "Job3",
+                    "percentage" : "0%",
+                    "code" : "green"
+                },
+                {
+                    "id": 4,
+                    "title" : "Job4",
+                    "percentage" : "0%",
+                    "code" : "vl"
+                },
+                {
+                    "id": 5,
+                    "title" : "Job5",
+                    "percentage" : "0%",
+                    "code" : "green"
+                }
+
+            ]
+        },
+                {
+            "category" : "Jobs in Progress: ",
+            "jobListTitle" : "in Progress",
+            "dataViewName" : "jobsInProgress",
+            "jobsList" : [
+                {
+                    "id": 1,
+                    "title" : "Job1",
+                    "percentage" : "75%",
+                    "code" : "orange"
+                },
+                {
+                    "id": 2,
+                    "title" : "Job2",
+                    "percentage" : "75%",
+                    "code" : "green"
+                },
+                {
+                    "id": 3,
+                    "title" : "Job3",
+                    "percentage" : "75%",
+                    "code" : "blue"
+                },
+                 {
+                    "id": 4,
+                    "title" : "Job4",
+                    "percentage" : "75%",
+                    "code" : "green"
+                },
+                {
+                    "id": 5,
+                    "title" : "Job5",
+                    "percentage" : "75%",
+                    "code" : "blue"
+                },
+                 {
+                    "id": 6,
+                    "title" : "Job6",
+                    "percentage" : "75%",
+                    "code" : "green"
+                },
+                {
+                    "id": 7,
+                    "title" : "Job7",
+                    "percentage" : "75%",
+                    "code" : "blue"
+                }
+
+
+            ]
+        },
+                {
+            "category" : "Total Successful jobs Past 24hrs: ",
+            "jobListTitle" : "Successful",
+            "dataViewName" : "jobsSuccess",
+            "jobsList" : [
+                {
+                    "id": 1,
+                    "title" : "Job1",
+                    "percentage" : "100%",
+                    "code" : "green"
+                },
+                {
+                    "id": 2,
+                    "title" : "Job2",
+                    "percentage" : "100%",
+                    "code" : "blue"
+                },
+                {
+                    "id": 3,
+                    "title" : "Job3",
+                    "percentage" : "100%",
+                    "code" : "vl"
+                },
+                {
+                    "id": 4,
+                    "title" : "Job4",
+                    "percentage" : "100%",
+                    "code" : "vl"
+                }
+
+            ]
+        },
+                {
+            "category" : "Total Failed jobs Past 24 hrs: ",
+            "jobListTitle" : "Failed",
+            "dataViewName" : "jobsFailed",
+            "jobsList" : [
+                {
+                    "id": 1,
+                    "title" : "Job1",
+                    "percentage" : "75%",
+                    "code" : "vl"
+                },
+                {
+                    "id": 2,
+                    "title" : "Job2",
+                    "percentage" : "75%",
+                    "code" : "blue"
+                },
+                {
+                    "id": 3,
+                    "title" : "Job3",
+                    "percentage" : "75%",
+                    "code" : "green"
+
+                }
+
+            ]
+        }
+
+]

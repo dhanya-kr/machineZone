@@ -1,0 +1,21 @@
+[
+
+        {
+            "title" : "API Data Load Jobs",
+            "code" : "blue"
+        },
+                {
+            "title" : "Email Data Load Jobs",
+            "code" : "green"
+        },
+
+        {
+            "title" : "Scraper Data Load Jobs",
+            "code" : "vl"
+        },
+                {
+            "title" : "Realtime Jobs",
+            "code" : "orange"
+        }
+
+    ]
