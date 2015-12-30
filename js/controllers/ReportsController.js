@@ -1,6 +1,6 @@
 /**
   * @class MetronicApp.ReportsController
-  * @memberOf MetronicApp    
+  * @memberOf MetronicApp
   */
 angular.module('MetronicApp').controller('ReportsController',
     function($rootScope, $scope, $http, $timeout) {

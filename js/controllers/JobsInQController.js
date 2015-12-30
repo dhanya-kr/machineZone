@@ -1,6 +1,6 @@
 /**
   * @class MetronicApp.JobsInQController
-  * @memberOf MetronicApp    
+  * @memberOf MetronicApp
   */
 angular.module('MetronicApp').controller('JobsInQController',
     function($rootScope, $scope, $http, $timeout, mzStorageJobs) {

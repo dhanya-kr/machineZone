@@ -1,6 +1,6 @@
 /**
   * @class MetronicApp.JobsSuccessController
-  * @memberOf MetronicApp    
+  * @memberOf MetronicApp
   */
 angular.module('MetronicApp').controller('JobsSuccessController',
     function($rootScope, $scope, $http, $timeout, mzStorageJobs) {

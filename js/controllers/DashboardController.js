@@ -1,12 +1,9 @@
 /**
   * @class MetronicApp.DashboardController
-  * @memberOf MetronicApp    
+  * @memberOf MetronicApp
   */
 angular.module('MetronicApp').controller('DashboardController',
     function($rootScope, $scope, $http, $timeout, $state, mzStorageJobList, mzStorageCategoryLabels) {
-       /**
-            * Setup Dashboard Controller
-            */
         $scope.$on('$viewContentLoaded', function() {
             // initialize core components
         });

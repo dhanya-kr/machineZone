@@ -1,6 +1,6 @@
 /**
   * @class MetronicApp.UserProfileController
-  * @memberOf MetronicApp    
+  * @memberOf MetronicApp
   */
 angular.module('MetronicApp').controller('UserProfileController', function($rootScope, $scope, $http, $timeout) {
     $scope.$on('$viewContentLoaded', function() {

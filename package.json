@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "test": "karma start test/config/karma.conf.js",
-    "jsdoc": "jsdoc -p -c .jsdoc.json"
+    "jsdoc": "jsdoc -p -c .jsdoc.json",
+    "test": "karma start test/config/karma.conf.js"
   },
   "dependencies": {
     "angular": "^1.4.3",
@@ -10,19 +10,20 @@
     "angular-resource": "^1.4.3"
   },
   "devDependencies": {
-    "karma": "^0.10.0",
-    "karma-coverage": "0.2.6",
-    "run-sequence": "^0.3.6",
     "gulp": "^3.8.6",
-    "gulp-sass": "^2.0.4",
-    "gulp-minify-css": "^0.3.6",
-    "gulp-jshint": "^1.11.0",
-    "gulp-jscs": "^3.0.2",
-    "jsdoc": "^3.4.0",
-    "jshint-stylish": "^2.0.0",
     "gulp-clean": "^0.3.1",
     "gulp-concat": "^2.4.2",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^1.11.0",
+    "gulp-minify-css": "^0.3.6",
+    "gulp-sass": "^2.0.4",
     "gulp-uglify": "^0.3.1",
+    "jsdoc": "^3.4.0",
+    "jshint-stylish": "^2.0.0",
+    "karma": "^0.10.0",
+    "karma-coverage": "0.2.6",
+    "lodash": "^3.9.3",
+    "require-dir": "^0.1.0",
     "run-sequence": "^0.3.6"
   }
 }

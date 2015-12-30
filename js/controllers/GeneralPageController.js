@@ -1,6 +1,6 @@
 /**
   * @class MetronicApp.GeneralPageController
-  * @memberOf MetronicApp    
+  * @memberOf MetronicApp
   */
 
 angular.module('MetronicApp').controller('GeneralPageController', ['$rootScope', '$scope', 'settings',

@@ -1,4 +1,3 @@
-    
 /**
  * AngularJS default filter with the following expression:
  * "person in people | filter: {name: $select.search, age: $select.search}"
@@ -41,7 +40,7 @@ angular.module('MetronicApp').filter('propsFilter', function() {
 
 /**
   * @class MetronicApp.UISelectController
-  * @memberOf MetronicApp    
+  * @memberOf MetronicApp
   */
 angular.module('MetronicApp').controller('UISelectController', function($scope, $http, $timeout) {
     $scope.$on('$viewContentLoaded', function() {

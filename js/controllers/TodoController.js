@@ -1,6 +1,6 @@
 /**
   * @class MetronicApp.TodoController
-  * @memberOf MetronicApp    
+  * @memberOf MetronicApp
   */
 angular.module('MetronicApp').controller('TodoController',
     function($rootScope, $scope, $http, $timeout) {
