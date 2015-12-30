@@ -1,3 +1,7 @@
+/**
+  * @class MetronicApp.JobsInProgressController
+  * @memberOf MetronicApp    
+  */
 angular.module('MetronicApp').controller('JobsInProgressController',
     function($rootScope, $scope, $http, $timeout, mzStorageJobs) {
         mzStorageJobs.get().success(function(response) {

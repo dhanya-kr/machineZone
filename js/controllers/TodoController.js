@@ -1,3 +1,7 @@
+/**
+  * @class MetronicApp.TodoController
+  * @memberOf MetronicApp    
+  */
 angular.module('MetronicApp').controller('TodoController',
     function($rootScope, $scope, $http, $timeout) {
         $scope.$on('$viewContentLoaded', function() {

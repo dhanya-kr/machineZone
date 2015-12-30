@@ -1,3 +1,6 @@
+ /**
+  * @namespace MetronicApp
+  */
 var MetronicApp = angular.module("MetronicApp", [
     "ui.router",
     "ui.bootstrap",
@@ -62,7 +65,10 @@ MetronicApp.config(['$controllerProvider', function($controllerProvider) {
  END: BREAKING CHANGE in AngularJS v1.3.x:
 *********************************************/
 
-/* Setup global settings */
+/**
+     * Setup global settings
+     */
+
 MetronicApp.factory('settings', ['$rootScope', function($rootScope) {
     // supported languages
     var settings = {

@@ -1,3 +1,7 @@
+/**
+  * @class MetronicApp.ReportsController
+  * @memberOf MetronicApp    
+  */
 angular.module('MetronicApp').controller('ReportsController',
     function($rootScope, $scope, $http, $timeout) {
         $scope.$on('$viewContentLoaded', function() {

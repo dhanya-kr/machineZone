@@ -1,4 +1,8 @@
-/* Setup general page controller */
+/**
+  * @class MetronicApp.GeneralPageController
+  * @memberOf MetronicApp    
+  */
+
 angular.module('MetronicApp').controller('GeneralPageController', ['$rootScope', '$scope', 'settings',
     function($rootScope, $scope, settings) {
         $scope.$on('$viewContentLoaded', function() {

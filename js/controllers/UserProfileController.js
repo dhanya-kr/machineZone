@@ -1,3 +1,7 @@
+/**
+  * @class MetronicApp.UserProfileController
+  * @memberOf MetronicApp    
+  */
 angular.module('MetronicApp').controller('UserProfileController', function($rootScope, $scope, $http, $timeout) {
     $scope.$on('$viewContentLoaded', function() {
         App.initAjax(); // initialize core components
